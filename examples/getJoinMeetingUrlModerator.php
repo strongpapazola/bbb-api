@@ -25,5 +25,6 @@ try {
 
 if ($itsAllGood == true) {
 	//Output results to see what we're getting:
-	print_r($result);
+	//print_r($result);
+	echo '{"url":"'.$result.'"}';
 }

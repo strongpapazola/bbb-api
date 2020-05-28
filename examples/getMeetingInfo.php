@@ -23,11 +23,11 @@ if ($itsAllGood == true) {
 	if ($result == null) {
 		echo "Failed to get any response. Maybe we can't contact the BBB server.";
 	} else {
-		var_dump($result);
+		echo json_encode($result);
 		if (!isset($result['messageKey'])) {
-			echo "<p>Meeting info was found on the server.</p>";
+//			echo "<p>Meeting info was found on the server.</p>";
 		} else {
-			echo "<p>Failed to get meeting info.</p>";
+//			echo "<p>Failed to get meeting info.</p>";
 		}
 	}
 }

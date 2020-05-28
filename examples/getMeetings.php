@@ -16,10 +16,10 @@ if ($itsAllGood == true) {
 	if ($result == null) {
 		echo "Failed to get any response. Maybe we can't contact the BBB server.";
 	} else {
+		echo json_encode($result);
 		if ($result['returncode'] == 'SUCCESS') {
 //			echo "<p>We got some meeting info from BBB:</p>";
 //			echo json_encode($result);
-			echo json_encode($result);
 		} else {
 			print("Yang didapat: " . $result["returncode"]);
 		}

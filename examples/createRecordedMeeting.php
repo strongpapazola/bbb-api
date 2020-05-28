@@ -33,9 +33,9 @@ if ($itsAllGood == true) {
 	} else {
 		echo json_encode($result);
 		if ($result['returncode'] == 'SUCCESS') {
-			echo "<p>Meeting succesfullly created.</p>";
+//			echo "<p>Meeting succesfullly created.</p>";
 		} else {
-			echo "<p>Meeting creation failed.</p>";
+//			echo "<p>Meeting creation failed.</p>";
 		}
 	}
 }

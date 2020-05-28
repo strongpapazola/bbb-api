@@ -23,5 +23,6 @@ try {
 }
 
 if ($itsAllGood == true) {
-	echo json_encode($result);
+	print_r($result);
 }
+

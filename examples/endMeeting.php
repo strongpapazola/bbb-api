@@ -25,9 +25,9 @@ if ($itsAllGood == true) {
 	} else {
 		echo json_encode($result);
 		if ($result['returncode'] == 'SUCCESS') {
-			echo "<p>Meeting succesfullly ended.</p>";
+//			echo "<p>Meeting succesfullly ended.</p>";
 		} else {
-			echo "<p>Failed to end meeting.</p>";
+//			echo "<p>Failed to end meeting.</p>";
 		}
 	}
 }
